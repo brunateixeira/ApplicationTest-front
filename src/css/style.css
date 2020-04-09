@@ -1,0 +1,32 @@
+.App {
+  width: 100%;
+}
+
+.mapas {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+.mapa {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  min-height: 200px;
+  background-color: #ffffcc;
+  margin: 2px;
+  align-content: center;
+  text-align: justify;
+}
+
+.linha {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+
+}
+
+.celula {
+  margin: 4px 6px;
+  text-align: center;
+}
